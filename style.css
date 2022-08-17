@@ -41,6 +41,12 @@ li {
   font-size: 14px;
   padding: 1.188rem 0rem 2rem 0rem;
 }
+.left-email-input {
+  padding-right: 120px;
+}
+.right-button {
+  padding-left: 10px;
+}
 
 @media screen and (min-width: 992px) {
   .nav_list {
@@ -54,7 +60,7 @@ li {
 }
 @media screen and (min-width: 1200px) {
   .second-section-row {
-    padding: 100px 0px 100px 100px;
+    padding: 50px 0px 50px 100px;
   }
 }
 
