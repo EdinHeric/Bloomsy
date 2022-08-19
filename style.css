@@ -23,6 +23,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   height: calc(100vh - 75px);
+  min-height: 320px;
 }
 .subtitle {
   color: black;
@@ -194,4 +195,23 @@ li {
   border: 1px solid gray;
   letter-spacing: 0.05em;
   padding-left: 1rem;
+}
+@media screen and (max-width: 400px) {
+  h1.hero-heading {
+    font-size: 35px;
+  }
+  h3.subtitle {
+    font-size: 17px;
+    margin-bottom: -30px;
+  }
+  p.hero-text {
+    font-size: 14px;
+  }
+  .btn.btn-primary,.btn.btn-secondary {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+  .hero-banner {
+    min-height: 370px;
+  }
 }
