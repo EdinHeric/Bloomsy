@@ -726,6 +726,11 @@ progress {
     max-width: 1320px;
   }
 }
+@media (min-width: 1400px) {
+.big-width-container {
+  max-width: 1520px;
+}
+}
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -3217,7 +3222,7 @@ fieldset:disabled .btn {
   --bs-btn-disabled-bg: var(--bs-bloomsy-primary);
   --bs-btn-disabled-border-color: var(--bs-bloomsy-primary);
   text-transform: uppercase;
-  padding: 16px 40px 16px 40px;
+  padding: 14px 40px 14px 40px;
   margin-bottom: 1rem;
 }
 
@@ -3238,7 +3243,7 @@ fieldset:disabled .btn {
   --bs-btn-disabled-border-color: var(--bs-bloomsy-secondary);
   text-transform: uppercase;
   border: 2px solid;
-  padding: 16px 40px 16px 40px;
+  padding: 13px 40px 13px 40px;
   margin-bottom: 1rem;
 }
 

@@ -120,6 +120,8 @@ li {
   letter-spacing: 0.05em;
   color: var(--bs-white) !important;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  
 }
 @media screen and (max-width: 1061px) {
   .text_left_third {
