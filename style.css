@@ -17,6 +17,10 @@ li {
   letter-spacing: 0.7px;
 }
 
+.newsletter-form {
+  margin: 0 !important;
+}
+
 .hero-banner {
   background-image: url("./images/hero-image.jpg");
   background-size: cover;
